@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "name1",
+      "lastName": "name2",
+      "email": "n@n.com",
+      "password": "12345",
+      "address": "address 1 5",
+      "phone": "0548654321"
+    },
+    {
+      "id": 1738249825284,
+      "email": "y0556782301@gmail.com",
+      "password": "1",
+      "firstName": "yehudit",
+      "lastName": "elchadad",
+      "address": "haslosha 5",
+      "phone": "0556782301"
+    },
+    {
+      "id": 1738685674041,
+      "email": "y",
+      "password": "123"
+    },
+    {
+      "id": 1738708256879,
+      "email": "yehudit@gmail.com",
+      "password": "1",
+      "firstName": "yehudit",
+      "lastName": "elchadad",
+      "address": "haslosha 5",
+      "phone": "0556782301"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pasta Alfredo",
+      "description": "Pasta with a rich cream sauce",
+      "authorId": 1,
+      "ingredients": [
+        "200g pasta",
+        "100ml cream",
+        "50g parmesan cheese",
+        "1 clove garlic",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Cook the pasta according to the package instructions. In a separate pan, heat the cream and add the garlic. Stir in the parmesan cheese until melted. Combine the pasta with the sauce and season with salt and pepper."
+    },
+    {
+      "id": 2,
+      "title": "Chocolate Cake",
+      "description": "Rich and moist chocolate cake",
+      "authorId": 1,
+      "ingredients": [
+        "200g flour",
+        "200g sugar",
+        "100g cocoa powder",
+        "1 tsp baking powder",
+        "1 tsp baking soda",
+        "2 eggs",
+        "240ml milk",
+        "120ml vegetable oil",
+        "2 tsp vanilla extract",
+        "240ml boiling water"
+      ],
+      "instructions": "Preheat the oven to 175°C (350°F). In a large bowl, mix the flour, sugar, cocoa powder, baking powder, and baking soda. Add the eggs, milk, oil, and vanilla extract, and mix until smooth. Gradually add the boiling water and mix until well combined. Pour the batter into a greased baking pan and bake for 30-35 minutes. Let cool before serving."
+    },
+    {
+      "id": 3,
+      "title": "Four Cheese Lasagna",
+      "description": "A rich and creamy lasagna with four types of cheese",
+      "authorId": 1,
+      "ingredients": [
+        "12 lasagna sheets",
+        "250g ricotta cheese",
+        "200g mozzarella cheese",
+        "100g parmesan cheese",
+        "100g gorgonzola cheese",
+        "500ml tomato sauce",
+        "200ml heavy cream",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "Salt",
+        "Pepper",
+        "1 tsp dried basil"
+      ],
+      "instructions": "Preheat the oven to 180°C (350°F). In a saucepan, heat olive oil and sauté onions and garlic until soft. Add tomato sauce, basil, salt, and pepper, and simmer for 10 minutes. In a bowl, mix ricotta, half of the parmesan, and gorgonzola cheese. In a baking dish, spread a layer of sauce, add lasagna sheets, then the cheese mixture. Repeat layers until ingredients are used up. Pour heavy cream over the top, sprinkle with remaining parmesan and mozzarella. Cover with foil and bake for 30 minutes. Remove foil and bake for another 10 minutes until golden. Let sit for 10 minutes before serving."
+    },
+    {
+      "id": 4,
+      "title": "Mushroom Risotto",
+      "description": "Creamy risotto with mushrooms and parmesan",
+      "authorId": 1,
+      "ingredients": [
+        "300g Arborio rice",
+        "200g mushrooms, sliced",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 liter vegetable broth",
+        "200ml white wine",
+        "50g butter",
+        "100g parmesan cheese, grated",
+        "2 tbsp olive oil",
+        "Salt",
+        "Pepper",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": "In a large pan, heat olive oil and sauté onions and garlic until translucent. Add mushrooms and cook until tender. Stir in the rice and cook for 2 minutes. Pour in the wine and let it evaporate. Gradually add the vegetable broth, stirring constantly, allowing each addition to be absorbed before adding more. Continue for about 20 minutes until rice is creamy. Stir in butter and parmesan cheese, season with salt and pepper. Let sit for 5 minutes before serving. Garnish with fresh parsley."
+    },
+    {
+      "id": 5,
+      "title": "Spinach and Ricotta Stuffed Shells",
+      "description": "Large pasta shells filled with a creamy spinach and ricotta mixture, baked in tomato sauce",
+      "authorId": 1,
+      "ingredients": [
+        "20 large pasta shells",
+        "250g ricotta cheese",
+        "100g spinach, chopped",
+        "50g parmesan cheese",
+        "1 egg",
+        "500ml tomato sauce",
+        "100g mozzarella cheese, grated",
+        "2 cloves garlic, minced",
+        "1 tbsp olive oil",
+        "Salt",
+        "Pepper",
+        "1 tsp dried oregano"
+      ],
+      "instructions": "Cook pasta shells according to package instructions and set aside. In a pan, heat olive oil and sauté garlic until fragrant. Add chopped spinach and cook until wilted. In a bowl, mix ricotta, parmesan, egg, and cooked spinach. Stuff each pasta shell with the mixture. Spread tomato sauce in a baking dish and arrange the stuffed shells on top. Sprinkle with mozzarella and oregano. Cover with foil and bake at 180°C (350°F) for 25 minutes. Remove foil and bake for another 10 minutes until cheese is golden. Serve warm."
+    },
+    {
+      "id": 6,
+      "title": "Cheesy Broccoli Soup",
+      "description": "A creamy broccoli soup loaded with cheese",
+      "authorId": 1,
+      "ingredients": [
+        "500g broccoli, chopped",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "50g butter",
+        "2 tbsp flour",
+        "750ml milk",
+        "250ml vegetable broth",
+        "200g cheddar cheese, grated",
+        "Salt",
+        "Pepper",
+        "1/2 tsp nutmeg"
+      ],
+      "instructions": "In a large pot, melt butter and sauté onions and garlic until soft. Stir in flour and cook for 1 minute. Gradually add milk and broth while stirring. Add broccoli and simmer for 15 minutes. Blend the soup until smooth using an immersion blender. Stir in cheese, salt, pepper, and nutmeg. Cook for another 5 minutes until thick and creamy. Serve hot."
+    },
+    {
+      "id": 7,
+      "title": "Chicken Parmesan",
+      "description": "Breaded chicken cutlets topped with marinara sauce and melted cheese",
+      "authorId": 1,
+      "ingredients": [
+        "4 chicken breasts, boneless and skinless",
+        "1 cup breadcrumbs",
+        "1/2 cup grated parmesan cheese",
+        "2 cups marinara sauce",
+        "200g mozzarella cheese, shredded",
+        "1 egg, beaten",
+        "1 cup all-purpose flour",
+        "2 tbsp olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Preheat the oven to 180°C (350°F). Dredge chicken breasts in flour, dip in beaten egg, and coat with breadcrumbs mixed with parmesan. Heat olive oil in a pan and brown the chicken on both sides. Place the chicken on a baking dish, top with marinara sauce and mozzarella cheese. Bake for 20 minutes or until the chicken is cooked through and the cheese is bubbly. Serve hot."
+    },
+    {
+      "id": 8,
+      "title": "Vegetable Stir Fry",
+      "description": "A colorful stir fry with a variety of vegetables, served with soy sauce",
+      "authorId": 1,
+      "ingredients": [
+        "1 bell pepper, sliced",
+        "1 zucchini, sliced",
+        "1 carrot, julienned",
+        "200g broccoli florets",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "2 cloves garlic, minced",
+        "1 tbsp fresh ginger, grated",
+        "1 tbsp olive oil",
+        "1 tbsp sesame seeds"
+      ],
+      "instructions": "Heat olive oil in a large pan or wok over medium-high heat. Add garlic and ginger, sauté for 1 minute. Add the vegetables and stir fry for 5-7 minutes until tender-crisp. Add soy sauce and sesame oil, and stir to coat. Sprinkle with sesame seeds and serve with rice or noodles."
+    },
+    {
+      "id": 9,
+      "title": "Tacos al Pastor",
+      "description": "Tacos with marinated pork, pineapple, and fresh toppings",
+      "authorId": 1,
+      "ingredients": [
+        "500g pork shoulder, thinly sliced",
+        "1/2 pineapple, diced",
+        "2 cloves garlic, minced",
+        "1/4 cup orange juice",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp paprika",
+        "Tortillas",
+        "Cilantro, chopped",
+        "Onion, diced",
+        "Lime wedges"
+      ],
+      "instructions": "In a bowl, mix garlic, orange juice, chili powder, cumin, paprika, and pineapple. Marinate the pork in the mixture for at least 2 hours. Grill or pan-fry the pork until cooked through and slightly charred. Serve on tortillas with fresh cilantro, onion, and lime wedges."
+    },
+    {
+      "id": 10,
+      "title": "Lemon Garlic Shrimp Pasta",
+      "description": "Shrimp in a tangy lemon-garlic sauce, served with pasta",
+      "authorId": 1,
+      "ingredients": [
+        "300g pasta (spaghetti or linguine)",
+        "300g shrimp, peeled and deveined",
+        "3 cloves garlic, minced",
+        "1 lemon, juiced",
+        "50g butter",
+        "1/4 cup white wine",
+        "2 tbsp olive oil",
+        "Salt",
+        "Pepper",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": "Cook pasta according to package instructions. In a large skillet, heat olive oil and sauté garlic for 1 minute. Add shrimp and cook until pink. Remove shrimp and set aside. In the same skillet, melt butter and add white wine, lemon juice, salt, and pepper. Let it simmer for a few minutes. Return the shrimp to the pan, toss with the sauce, and serve over the pasta. Garnish with fresh parsley."
+    },
+    {
+      "id": 11,
+      "title": "Apple Crumble",
+      "description": "A warm dessert with baked apples and a buttery crumble topping",
+      "authorId": 1738249825284,
+      "ingredients": [
+        "4 apples, peeled and sliced",
+        "1/2 cup brown sugar",
+        "1 tsp cinnamon",
+        "1 tbsp lemon juice",
+        "1/2 cup flour",
+        "1/2 cup rolled oats",
+        "1/4 cup butter, cold and cubed",
+        "1/4 cup sugar"
+      ],
+      "instructions": "Preheat the oven to 180°C (350°F). In a bowl, toss the apples with brown sugar, cinnamon, and lemon juice. Place in a greased baking dish. In another bowl, mix flour, oats, sugar, and butter until it forms a crumbly texture. Sprinkle the crumble mixture over the apples. Bake for 40 minutes until golden and bubbly. Serve warm with vanilla ice cream or whipped cream."
+    },
+    {
+      "id": 1738285519021,
+      "title": "Hot milk",
+      "description": "very",
+      "authorId": "1738249825284",
+      "ingredients": [
+        "very"
+      ],
+      "instructions": "very good!"
+    },
+    {
+      "id": 1738700884282,
+      "title": "f vgbhn",
+      "description": "fvghnjm",
+      "authorId": "1738249825284",
+      "ingredients": [
+        "bhnjuik"
+      ],
+      "instructions": "eszrdxtryguh9"
+    },
+    {
+      "id": 1738708351882,
+      "title": "cthfhcgvhbj",
+      "description": "a",
+      "authorId": "1738708256879",
+      "ingredients": [
+        "AXW",
+        "ינחמלפ]"
+      ],
+      "instructions": "zxcvub;\nzxfhcgvhkl;l\nctvhbjnkl;\ncvb'\n"
+    },
+    {
+      "id": 1738717567548,
+      "title": "mhn",
+      "description": "mn",
+      "authorId": "1738249825284",
+      "ingredients": [
+        "mn"
+      ],
+      "instructions": "n"
+    },
+    {
+      "id": 1738717648871,
+      "title": "mmmm",
+      "description": "a",
+      "authorId": "1738249825284",
+      "ingredients": [
+        "AXW"
+      ],
+      "instructions": "nkml"
+    }
+  ]
+}
