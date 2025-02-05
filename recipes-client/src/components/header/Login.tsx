@@ -24,7 +24,6 @@ const Login = ({ setIsLogin }: { setIsLogin: Function }) => {
             const res = await axios.post('http://localhost:3000/api/user/login',
                 newUser
             )
-            console.log(res.data);
             userDispatch({ type: "CREATE_USER", data: res.data.user });
             setIsLogin(true);
         } catch (e: any) {

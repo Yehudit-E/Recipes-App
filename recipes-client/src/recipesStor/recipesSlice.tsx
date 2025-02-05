@@ -39,6 +39,7 @@ export const addRecipe = createAsyncThunk('recipes/add',
       return response.data
     }
     catch (e: any) {
+      alert(e.message)
       return thunkAPI.rejectWithValue(e.message)
     }
   }
@@ -62,6 +63,7 @@ export const updateRecipe = createAsyncThunk('recipes/update',
       return response.data
     }
     catch (e: any) {
+      alert(e.message)
       return thunkAPI.rejectWithValue(e.message)
     }})
 const recipesSlice = createSlice({
@@ -88,8 +90,8 @@ const recipesSlice = createSlice({
           state.list.push(action.payload.recipe);
         })
       .addCase(addRecipe.rejected,
-        (_, action) => {
-          console.log(action.payload);
+        () => {
+          console.log('failed');
           alert("error");
         })
       .addCase(updateRecipe.fulfilled,
